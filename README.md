@@ -9,12 +9,12 @@ Genetic Algorithms(GAs) are adaptive heuristic search algorithms that belong to 
 ### How does it works? 
 			Step 1: Initialize. Create a population of N elements, each with randomly generated DNA. 
 			Step 2: Selection. Evaluate the fitness of each element of the population and build a mating pool.
-		    Step 3: Reproduction. Repeat N times:
+		        Step 3: Reproduction. Repeat N times:
 		    	 	a) Pick two parents with probability according to relative fitness.
 		    	  	b) Crossover—create a “child” by combining the DNA of these two parents. 
 		    	  	c) Mutation—mutate the child’s DNA based on a given probability.
-		    	    d) Add the new child to a new population.
-		    Step 4. Replace the old population with the new population and return to Step 2. 
+		    	        d) Add the new child to a new population.
+		        Step 4. Replace the old population with the new population and return to Step 2. 
 
 
 
@@ -22,7 +22,7 @@ The basic goal of the rockets is to land at the goal position without colliding 
 
 
 ### ScreenShots		    
-<img src="https://github.com/sharmahr/Smart-Rockets---Genetic-Algorithm/blob/master/Space_Invaders/read_me/screenshot.jpg" alt="screenshot"
+<img src="https://github.com/sharmahr/Smart-Rockets---Genetic-Algorithm/blob/master/Smart_Rockets/read_me/screenshot.jpg" alt="screenshot"
 	title="screenshot" width="400" height="400" />
 
 
