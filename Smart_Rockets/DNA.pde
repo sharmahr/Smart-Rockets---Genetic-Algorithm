@@ -26,7 +26,7 @@ return newdna;
 
 void mutation(){
 for(int i= 0; i< genes.length;i++){
-if(random(1) < 0.01){
+if(random(1) < 0.001){
 genes[i] = PVector.random2D();
 genes[i].setMag(0.1);
 }
